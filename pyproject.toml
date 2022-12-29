@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "notes-app"
+version = "0.1.0"
+description = ""
+authors = ["bjamyl <alhassanjamil0@gmail.com>"]
+readme = "README.md"
+packages = [{include = "notes_app"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.1.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
