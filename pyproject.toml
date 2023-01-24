@@ -10,6 +10,10 @@ packages = [{include = "notes_app"}]
 python = "^3.10"
 django = "^4.1.4"
 djangorestframework = "^3.14.0"
+django-cors-headers = "^3.13.0"
+dj-database-url = "^1.2.0"
+psycopg2-binary = "^2.9.5"
+whitenoise = {extras = ["brotli"], version = "^6.3.0"}
 
 
 [build-system]
